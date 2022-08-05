@@ -7,6 +7,9 @@ from datetime import datetime
 
 # Rajouter entre [] le code et le nom du département (ce sera le nom de la feuille Excel) + l'URL du département sur adresses-mairies.fr
 # departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"], ["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["78 - Yvelines", "https://www.adresses-mairies.fr/departement-yvelines-79.html"], ["91 - Essonne", "https://www.adresses-mairies.fr/departement-essonne-92.html"], ["92 - Hauts-de-Seine", "https://www.adresses-mairies.fr/departement-hauts-de-seine-93.html"], ["93 - Seine-Saint-Denis", "https://www.adresses-mairies.fr/departement-seine-saint-denis-94.html"], ["94 - Val-de-Marne", "https://www.adresses-mairies.fr/departement-val-de-marne-95.html"], ["95 - Val d'Oise", "https://www.adresses-mairies.fr/departement-val-d-oise-96.html"]]
+# departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"]] # scraping des mairies de Paris
+# departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"], ["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["78 - Yvelines", "https://www.adresses-mairies.fr/departement-yvelines-79.html"]] # scraping des mairies de Paris, de Seine-et-Marne et des Yvelines
+# departements = [["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["95 - Val d'Oise", "https://www.adresses-mairies.fr/departement-val-d-oise-96.html"]] # scraping des mairies de Seine-et-Marne et du Val d'Oise
 departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"]]
 
 # Pour avoir des Excel unique à chaque fois, avec sa date et heure de génération
