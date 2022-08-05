@@ -40,3 +40,8 @@ cd <chemin_du_fichier> # Exemple : C:/Utilisateurs/Guillaume/Bureau/scrapping_ma
 python scrapping_mairies.py # or python3 scrapping_mairies.py
 ```
 Le programme va maintenant tourner. Vous verrez dans le terminal les mairies qui sont en train d'être récoltées. Il faut être patient, en fonction du nombre de départements et du nombre de villes par départements, cela peut être plus ou moins long.
+
+
+## Récupération des résultats
+A la fin de l'exécution du programme, le fichier Excel de résultat sera présent dans le même dossier que votre fichier `scrapping_mairies.py`. 
+Son nom est au format `scrapping_<date>.xlsx`.
