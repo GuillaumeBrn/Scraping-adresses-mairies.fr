@@ -1,4 +1,4 @@
-# scraping-adresses-mairies.fr
+# Scraping-adresses-mairies.fr
 Ce projet est un simple scrapper Python du site adresses-mairies.fr permettant de récupérer les n° de téléphone et mails d'un département donné.
 
 ## Utilisation
