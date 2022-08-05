@@ -36,7 +36,7 @@ departements = [["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departe
 Pour exécuter le script, lancez votre ligne de commandes (Windows : `⊞ Win + R` et tapez "cmd" puis entrer).
 Tapez :
 ```bash
-cd <chemin_du_fichier> # Exemple : C:/Utilisateurs/Guillaume/Bureau si le fichier est sur le Bureau
+cd <chemin_du_fichier> # Exemple : cd C:/Utilisateurs/Guillaume/Bureau si le fichier est sur le Bureau
 python scraping_mairies.py # or python3 scraping_mairies.py
 ```
 Le programme va maintenant tourner. Vous verrez dans le terminal les mairies qui sont en train d'être récoltées. Il faut être patient, en fonction du nombre de départements et du nombre de villes par départements, cela peut être plus ou moins long.
