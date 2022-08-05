@@ -21,13 +21,22 @@ pip install XlsxWriter
 
 ### Script
 Pour éviter de devoir retaper les départements souhaités, j'ai opté pour une liste en dur dans le code.
-Cette liste appelée `départements` prend comme éléments une autre liste au format ["*code_departement* - *nom_département*", "*url_département*"].
+Cette liste appelée `départements` prend comme éléments une liste au format `["<code_departement> - <nom_département>", "<url_département>"]`.
+
 Ouvrez le fichier (avec l'application bloc-notes par exemple) et insérez les départements souhaitez.
 
 **Exemples**
 ```bash
 departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"]] # Scrapping des mairies de Paris
 departements = [["75 - Paris", "https://www.adresses-mairies.fr/departement-paris-76.html"], ["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["78 - Yvelines", "https://www.adresses-mairies.fr/departement-yvelines-79.html"]] # Scrapping des mairies de Paris, de Seine-et-Marne et des Yvelines
-departements = [["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["95 - Val d'Oise", "https://www.adresses-mairies.fr/departement-val-d-oise-96.html"]] # Scrapping des mairies de Seine-et-Marne et du Val d'Oisie
-
+departements = [["77 - Seine-et-Marne", "https://www.adresses-mairies.fr/departement-seine-et-marne-78.html"], ["95 - Val d'Oise", "https://www.adresses-mairies.fr/departement-val-d-oise-96.html"]] # Scrapping des mairies de Seine-et-Marne et du Val d'Oise
 ```
+
+### Lancement du script
+Pour exécuter le script, lancez votre ligne de commandes (Windows : `⊞ Win + R` et tapez "cmd" puis entrer).
+Tapez :
+```bash
+cd <chemin_du_fichier> # Exemple : C:/Utilisateurs/Guillaume/Bureau/scrapping_mairies.py
+python scrapping_mairies.py # or python3 scrapping_mairies.py
+```
+Le programme va maintenant tourner. Vous verrez dans le terminal les mairies qui sont en train d'être récoltées. Il faut être patient, en fonction du nombre de départements et du nombre de villes par départements, cela peut être plus ou moins long.
