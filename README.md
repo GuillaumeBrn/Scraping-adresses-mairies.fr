@@ -23,7 +23,7 @@ pip install XlsxWriter
 Pour éviter de devoir retaper les départements souhaités, j'ai opté pour une liste en dur dans le code.
 Cette liste appelée `départements` prend comme éléments une liste au format `["<code_departement> - <nom_département>", "<url_département>"]`.
 
-Ouvrez le fichier (avec l'application bloc-notes par exemple) et insérez les départements souhaitez. Ce sera l'unique chose à modifier dans le script.
+Téléchargez et ouvrez le fichier `scraping_mairies.py` (avec l'application bloc-notes par exemple) et insérez les départements souhaitez. Ce sera l'unique chose à modifier dans le script.
 
 **Exemples**
 ```bash
